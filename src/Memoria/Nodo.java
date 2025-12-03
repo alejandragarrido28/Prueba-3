@@ -8,18 +8,19 @@ package Memoria;
  *
  * @author User
  */
+
 public class Nodo {
     public int codigo;
     public String nombre;
-    public Nodo sigte;
-    
-    public Nodo(int codigo, String nombre){
-        this.codigo=codigo;
-        this.nombre=nombre;
-        sigte=null;
+    public Nodo sigte; 
+
+    public Nodo(int codigo, String nombre) {
+        this.codigo = codigo;
+        this.nombre = nombre;
+        sigte = null;
     }
-    
-    public String toString(){
-        return "Nodo {"+"Codigo: "+codigo+", Nombre: "+nombre+"}";
+
+    public String toString() {
+        return "Nodo {Código: " + codigo + ", Nombre: " + nombre + "}";
     }
 }
